@@ -1,6 +1,6 @@
 baseURL = "https://phpday.teomiscia.com/"
-languageCode = "en-us"
-title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+languageCode = "it-it"
+title = "phpday PUG Edition"
 theme = "timer-hugo"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
@@ -62,9 +62,12 @@ title   = "FATHER"
 # Homepage About Section
 [params.about]
 enable  = true
-title   = "ABOUT ME"
-content = "Hello, I’m a UI/UX Designer & Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University.And scrambled it to make a type specimen book. It has survived not only five centuries. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
-image   = "images/about/about.jpg"
+title   = "Di cosa si tratta?"
+content = "Vista l'impossibilità di organizzare il phpday a Verona a causa del COVID-19 abbiamo pensato di organizzare un'edizione online gratuita dell'evento  insieme a tutti i PUG italiani negli stessi giorni in cui era previsto la conferenza."
+days_number = "2"
+days_desc = "Pomeriggi"
+talks_number = "8"
+talks_desc = "Talk"
 
 # Call to Action
 [params.cta]

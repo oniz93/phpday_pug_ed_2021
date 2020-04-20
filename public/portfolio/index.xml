@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolios on Timer | Responsive Multipurpose Bootstrap Hugo Template</title>
+    <title>Portfolios on phpday PUG Edition</title>
     <link>https://phpday.teomiscia.com/portfolio/</link>
-    <description>Recent content in Portfolios on Timer | Responsive Multipurpose Bootstrap Hugo Template</description>
+    <description>Recent content in Portfolios on phpday PUG Edition</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>it-it</language>
     <lastBuildDate>Thu, 12 Jul 2018 16:59:54 +0600</lastBuildDate>
     
 	<atom:link href="https://phpday.teomiscia.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
