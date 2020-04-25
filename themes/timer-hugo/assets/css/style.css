@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Quicksand:400,300,100,500,700);
-@import url(http://fonts.googleapis.com/css?family=Quicksand+Condensed:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,300,100,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Quicksand+Condensed:400,300,700,900);
 
 body {
   font-family: "Quicksand", sans-serif;
@@ -94,7 +94,7 @@ a:hover {
 .social-share a {
   font-size: 20px;
   color: #fff;
-  background: #635da9;
+  background: #7f72b1;
   padding: 4px 10px;
   display: inline-block;
 }
@@ -135,7 +135,7 @@ a:hover {
   background-size: cover;
   padding: 120px 0 25px 0;
   position: relative;
-  background: #635da9;
+  background: #7f72b1;
   color: #fff;
 }
 
@@ -224,7 +224,7 @@ a:hover {
 }
 
 .navbar .nav-item .nav-link:hover {
-  color: #635da9 !important;
+  color: #7f72b1 !important;
 }
 
 .navbar .nav-item:last-child .nav-link {
@@ -270,7 +270,7 @@ a:hover {
 }
 
 .dropdown-item:hover {
-  color: #635da9 !important;
+  color: #7f72b1 !important;
   background: transparent;
 }
 
@@ -293,8 +293,9 @@ a:hover {
 }
 
 .about-number {
-  font-size: 3.5em;
+  font-size: 4.5em;
   border-bottom: white 2px solid;
+  font-weight: 500;
 }
 
 .about-text {
@@ -321,7 +322,7 @@ a:hover {
   font-size: 40px;
   line-height: 50px;
   color: #333;
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 15px;
 }
 
@@ -349,7 +350,7 @@ a:hover {
 }
 
 #call-to-action {
-  background: #635da9;
+  background: #7f72b1;
   background-size: cover;
   background-attachment: fixed;
   padding: 80px 0;
@@ -357,6 +358,7 @@ a:hover {
   position: relative;
   color: #fff;
 }
+
 
 #call-to-action .block {
   position: relative;
@@ -379,7 +381,7 @@ a:hover {
 #call-to-action .block .btn-contact {
   background: #fff;
   border: 2px solid #fff;
-  color: #635da9;
+  color: #7f72b1;
   padding: 15px 34px;
   margin-top: 20px;
   font-size: 12px;
@@ -395,7 +397,55 @@ a:hover {
 
 #call-to-action .block .btn-contact:hover {
   color: #fff;
-  background: #635da9;
+  background: #7f72b1;
+}
+
+#call-to-action2 {
+  background: white;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+
+
+#call-to-action2 .block {
+  position: relative;
+  z-index: 9;
+  color: #fff;
+}
+
+#call-to-action2 .block h2 {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+#call-to-action2 .block p {
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 20px;
+}
+
+#call-to-action2 .block .btn-contact {
+  background: #7f72b1;
+  color: white;
+  padding: 0px 55px;
+  font-size: 2em;
+  letter-spacing: 1px;
+  border-radius: 0;
+  transition: all linear .2s;
+}
+
+#call-to-action2 .block .btn-contact i {
+  margin-right: 10px;
+}
+
+#call-to-action2 .block .btn-contact:hover {
+  color: #fff;
+  background: #7f72b1;
 }
 
 #about {
@@ -424,6 +474,33 @@ a:hover {
   max-width: 100%;
 }
 
+#about2 {
+  padding: 20px 0 50px 0;
+  border-bottom: 2px solid #7f72b1;
+}
+
+#about2 .block {
+  padding: 20px 30px 0 30px;
+}
+
+#about2 .block h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  
+}
+
+#about2 .block p {
+  color: #727272;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 35px;
+}
+
+#about2 .block img {
+  max-width: 100%;
+}
+
 .about-feature .block {
   color: #fff;
   padding: 85px 65px;
@@ -435,7 +512,7 @@ a:hover {
 }
 
 .about-feature .about-feature-1 {
-  background: #635da9;
+  background: #7f72b1;
 }
 
 .about-feature .about-feature-2 {
@@ -566,8 +643,8 @@ figure .buttons {
 }
 
 figure .buttons a:hover {
-  background: #635da9;
-  border-color: #635da9;
+  background: #7f72b1;
+  border-color: #7f72b1;
 }
 
 figure .buttons a:focus {
@@ -585,7 +662,7 @@ figure figcaption h4 {
 }
 
 figure figcaption h4 a {
-  color: #635da9;
+  color: #7f72b1;
 }
 
 figure figcaption p {
@@ -625,7 +702,7 @@ figure figcaption p {
 #feature .icon {
   text-decoration: none;
   color: #fff;
-  background-color: #635da9;
+  background-color: #7f72b1;
   height: 100px;
   text-align: center;
   width: 100px;
@@ -642,7 +719,7 @@ figure figcaption p {
 
 .wrapper_404 h1 {
   font-size: 200px;
-  color: #635da9;
+  color: #7f72b1;
   line-height: 1;
 }
 
@@ -704,15 +781,15 @@ article {
 }
 
 .blog-content .btn-details {
-  color: #635da9;
+  color: #7f72b1;
   padding: 0;
-  background: #635da9;
+  background: #7f72b1;
   color: #fff;
   padding: 8px 18px;
   border-radius: 0;
   margin-top: 15px;
   border: 1px solid #fff;
-  box-shadow: 0px 0px 0px 1px #635da9;
+  box-shadow: 0px 0px 0px 1px #7f72b1;
 }
 
 .blog-post-image {
@@ -792,7 +869,7 @@ article {
 }
 
 .sidebar .recent-post ul li a:hover {
-  color: #635da9;
+  color: #7f72b1;
 }
 
 .sidebar .recent-post time {
@@ -816,9 +893,9 @@ article {
 #contact-section .contact-form .btn-send {
   color: #fff;
   outline: none;
-  background: #635da9;
+  background: #7f72b1;
   transition: all linear .2s;
-  border-color: #635da9;
+  border-color: #7f72b1;
   border-radius: 0;
 }
 
@@ -868,7 +945,7 @@ article {
 #contact-section .email i,
 #contact-section .phone i {
   font-size: 45px;
-  color: #635da9;
+  color: #7f72b1;
 }
 
 #contact-section .address h5,
@@ -953,7 +1030,7 @@ article {
 }
 
 .single-post .media .media-body a {
-  color: #635da9;
+  color: #7f72b1;
   font-size: 12px;
 }
 
@@ -979,7 +1056,7 @@ article {
 }
 
 .single-post .post-comment .btn-send {
-  background: #635da9;
+  background: #7f72b1;
   color: #fff;
   border-radius: 0;
 }
@@ -1031,7 +1108,7 @@ article {
 
 .btn-work {
   color: #fff;
-  background: #635da9;
+  background: #7f72b1;
   border-radius: 0;
 }
 
@@ -1045,7 +1122,7 @@ article {
 
 #product-showcase-banner .block h2 {
   font-size: 40px;
-  color: #635da9;
+  color: #7f72b1;
   margin-bottom: 20px;
   margin-top: 0;
 }
@@ -1169,7 +1246,7 @@ article {
 
 #related-items .block h4 span {
   float: right;
-  color: #635da9;
+  color: #7f72b1;
 }
 
 #related-items .block .img-overly {
@@ -1210,7 +1287,7 @@ article {
 
 .service-page .service-parts .block i {
   font-size: 35px;
-  color: #635da9;
+  color: #7f72b1;
 }
 
 .service-page .service-parts .block p {
@@ -1246,7 +1323,7 @@ article {
 }
 
 .team-member h3 {
-  color: #635da9;
+  color: #7f72b1;
   margin-bottom: 0;
   font-size: 20px;
 }
@@ -1256,7 +1333,7 @@ article {
 }
 
 .team-member .social-icons a {
-  background: #635da9;
+  background: #7f72b1;
   color: #fff;
   padding: 4px 8px;
   display: inline-block;
@@ -1279,7 +1356,7 @@ article {
 }
 
 #footer .copyright a {
-  color: #635da9;
+  color: #7f72b1;
 }
 
 #footer .social {
@@ -1294,7 +1371,7 @@ article {
 
 #footer .social li a {
   font-size: 22px;
-  color: #635da9;
+  color: #7f72b1;
 }
 
 .cd-headline.slide .cd-words-wrapper {

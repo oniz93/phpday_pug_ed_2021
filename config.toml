@@ -69,13 +69,20 @@ days_desc = "Pomeriggi"
 talks_number = "8"
 talks_desc = "Talk"
 
+# Homepage About2 Section
+[params.about2]
+enable  = true
+title   = "Che cosa sono i PUG?"
+content = "Negli anni GrUSP ha favorito la nascita di diversi PHP user group locali, i quali hanno totale autonomia di gestione e coordinano i meetup locali a nome del GrUSP."
+image = "images/grusp/pug-logo2.png"
+
 # Call to Action
 [params.cta]
 enable  = true
 title   = "SO WHAT YOU THINK ?"
 content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
-btnText = "Contact with me"
-btnURL  = "/contact"
+btnText = "ISCRIVITI GRATUITAMENTE"
+btnURL  = "https://phpday-pug-ed.eventbrite.it/"
 
 # Portfolio Section On Homepage
 [params.portfolio]

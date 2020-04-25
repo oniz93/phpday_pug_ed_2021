@@ -1,0 +1,21 @@
+{{ if .Site.Params.about.enable }}
+{{ "<!-- About Section Start -->" | safeHTML }}
+<section id="about2" style="background-color: white; color:black;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <div class="block wow fadeInRight text-center" data-wow-delay=".3s" data-wow-duration="500ms">
+                    {{ with .Site.Params.about2.image }}<img src="{{ . }}" style="max-height: 200px;"> {{ end }}
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                    {{ with .Site.Params.about2.title }}<h2>{{ . }}</h2>{{ end }}
+                    {{ with .Site.Params.about2.content }}<p style="color:black;">{{ . | safeHTML }}</p>{{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- About Section End -->" | safeHTML }}
+{{ end }}
