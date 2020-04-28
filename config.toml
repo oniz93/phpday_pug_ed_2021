@@ -7,57 +7,30 @@ theme = "timer-hugo"
 
 # Navbar Menus
 [[menu.main]]
-name    = "About"
-url     = "about"
+name    = "PUG"
+url     = "#pug"
 weight  = 2
 [[menu.main]]
-name    = "Service"
-url     = "service"
+name    = "Programma"
+url     = "#programma"
 weight  = 3
-[[menu.main]]
-name    = "Gallery"
-url     = "gallery"
-weight  = 4
-[[menu.main]]
-name    = "Blog"
-url     = "blog"
-weight  = 5
-[[menu.main]]
-name    = "Contact"
-url     = "contact"
-weight  = 6
 
 # Site Params
 [params]
 home = "Home"
-logo = "images/logo.png"
+logo = "images/grusp/grusp-logo.svg"
 dateFormat = "6 January 2006"
 # Meta data
-description = "Airspace Hugo theme"
-author = "Themefisher"
+description = "phpday PUG Edition by GrUSP"
+author = "GrUSP - Teo Miscia"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 # contact form action
 contactFormAction = "#" # contact form works with https://formspree.io
 
-# Banner Section
+# Banner
 [params.banner]
-enable  = true
-bgImage = ""
-heading = ""
-description = ""
-# button
-btn     = false
-btnText = "Download More"
-btnURL  = "https://themefisher.com/"
-
-# flip text
-[[params.banner.flipText]]
-title   = "DESIGNER"
-[[params.banner.flipText]]
-title   = "DEVELOPER"
-[[params.banner.flipText]]
-title   = "FATHER"
+enable = true
 
 # Homepage About Section
 [params.about]
@@ -79,18 +52,115 @@ image = "images/grusp/pug-logo2.png"
 # Call to Action
 [params.cta]
 enable  = true
-title   = "SO WHAT YOU THINK ?"
-content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
 btnText = "ISCRIVITI GRATUITAMENTE"
 btnURL  = "https://phpday-pug-ed.eventbrite.it/"
 
-# Portfolio Section On Homepage
-[params.portfolio]
-enable  = true
-title   = "Latest Works"
-subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+# I PUG
+[[params.pug]]
+icon = "images/grusp/pug-firenze.png"
+title = "Come funziona un framework: Deep dive nel Request Cycle di Laravel"
+abstract = "“Non so perché... ma funziona!”<br/>Quante volte ve lo siete chiesto? Usare un framework è appagante: in poco tempo siamo operativi, possiamo creare un MVP velocemente e un senso di “magia” ci pervade.<br/>Ma cosa succede dietro le quinte? Questo talk vi aiuterà a capire come funziona il cuore di Laravel e risolvere il vostro dilemma iniziale: “Perché... funziona!”"
 
-# social icon
+[[params.pug]]
+icon = "images/grusp/pug-pescara.png"
+title = "Filtering API: API REST con alcune comodità di GraphQL"
+abstract = ""
+
+[[params.pug]]
+icon = "images/grusp/pug-catania.jpg"
+title = "TDD💙BDD💙PHP - Sviluppo guidato dai test in PHP con phpspec"
+abstract = "Phpspec è uno strumento che può aiutarci a scrivere codice pulito e funzionante facilitandoci nell'adottare delle pratiche di Behaviour-Driven Development (BDD). Ma cos’è il BDD? Qual è la differenza tra il BDD e il Test-Driven Development (TDD)? Quali sono le differenze tra le famiglie di tool xSpec e xUnit? Quali strumenti mette a disposizione l’ecosistema PHP per praticare il TDD? Infine passeremo dalla teoria alla pratica risolvendo un problema in TDD con phpspec."
+
+[[params.pug]]
+icon = "images/grusp/pug-roma.png"
+title = "AA.VV. - The old guard of PUG Roma"
+abstract = "In questo panel insieme ad alcuni personaggi illustri appartenenti alla vecchia guardia del PUG Roma parleremo di scelte tecnologiche ed esperienze di vita da developer ai giorni d'oggi."
+
+[[params.pug]]
+icon = "images/grusp/pug-torino.png"
+title = "Anteprima delle novità del PHP 8"
+abstract = "In questo talk verranno presentate in anteprima alcune delle novità della prossima major release del PHP. In particolare, analizzeremo le funzionalità del Just In Time compiler (JIT), delle union types, dello static return type, delle weak maps, della nuova interfaccia Stringable e di alcune delle funzionalità deprecate. Proveremo anche a valutare l'impatto sulle performance in confronto con il PHP 7. Su questo tema, approfondiremo il funzionamento del JIT illustrandone i vantaggi e i limiti."
+
+[[params.pug]]
+icon = "images/grusp/pug-romagna.png"
+title = "TBD"
+abstract = "TBD"
+
+[[params.pug]]
+icon = "images/grusp/pug-more.png"
+title = "composer require Wordpress"
+abstract = "Diciamoci la verità non proprio a tutti piace Wordpress, ma se Wordpress fosse una semplice dipendenza del nostro progetto?<br />Durante l'incontro vi mostrerò uno use-case e i vantaggi che ha portato questo tipo di approccio nello sviluppo di un sito Wordpress."
+
+[[params.pug]]
+icon = "images/grusp/pug-rovigo.png"
+title = "Server Automation con Laravel Zero"
+abstract = "Esploriamo lo sviluppo di tool in linea di comando con PHP con l'ausilio del Framework Laravel Zero; un tool per chi  vuole cimentarsi con il devops facendo largo uso delle proprie conoscenze da programmatore PHP."
+
+# programma girono uno
+
+[[params.giorno_uno]]
+orario = "16.00"
+title = "Presentazione del GrUSP"
+description = "GrUSP"
+
+[[params.giorno_uno]]
+orario = "16.15"
+title = "Come funziona un framework: Deep dive nel Request Cycle di Laravel"
+description = "PUG Firenze"
+
+[[params.giorno_uno]]
+orario = "17.00"
+title = "Filtering API: API REST con alcune comodità di GraphQL"
+description = "PUG Pescara"
+
+[[params.giorno_uno]]
+orario = "17.45"
+title = "TDD💙BDD💙PHP - Sviluppo guidato dai test in PHP con phpspec"
+description = "PUG Catania"
+
+[[params.giorno_uno]]
+orario = "18.30"
+title = "AA.VV. - The old guard of PUG Roma"
+description = "PUG Roma"
+
+[[params.giorno_uno]]
+orario = "19.15"
+title = "Chiusura"
+description = "GrUSP"
+
+# programma giorno due
+
+[[params.giorno_due]]
+orario = "16.00"
+title = "Presentazione del GrUSP"
+description = "GrUSP"
+
+[[params.giorno_due]]
+orario = "16.15"
+title = "Anteprima delle novità del PHP 8"
+description = "PUG Torino"
+
+[[params.giorno_due]]
+orario = "17.00"
+title = "Ci stanno pensando"
+description = "PUG Romagna"
+
+[[params.giorno_due]]
+orario = "17.45"
+title = "composer require Wordpress"
+description = "PUG MoRe"
+
+[[params.giorno_due]]
+orario = "18.30"
+title = "Server Automation con Laravel Zero"
+description = "PUG Rovigo"
+
+[[params.giorno_due]]
+orario = "19.15"
+title = "Chiusura"
+description = "GrUSP"
+
+# social icon 
 [[params.socialIcon]]
 icon = "ion-social-facebook"
 url = "#"

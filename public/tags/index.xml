@@ -6,73 +6,9 @@
     <description>Recent content in Tags on phpday PUG Edition</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Sun, 15 Jul 2018 12:29:40 +0600</lastBuildDate>
     
 	<atom:link href="https://phpday.teomiscia.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>inspiration</title>
-      <link>https://phpday.teomiscia.com/tags/inspiration/</link>
-      <pubDate>Sun, 15 Jul 2018 12:29:40 +0600</pubDate>
-      
-      <guid>https://phpday.teomiscia.com/tags/inspiration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>motivation</title>
-      <link>https://phpday.teomiscia.com/tags/motivation/</link>
-      <pubDate>Sun, 15 Jul 2018 12:29:40 +0600</pubDate>
-      
-      <guid>https://phpday.teomiscia.com/tags/motivation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>internet</title>
-      <link>https://phpday.teomiscia.com/tags/internet/</link>
-      <pubDate>Sun, 15 Jul 2018 12:27:38 +0600</pubDate>
-      
-      <guid>https://phpday.teomiscia.com/tags/internet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://phpday.teomiscia.com/tags/tech/</link>
-      <pubDate>Sun, 15 Jul 2018 12:27:38 +0600</pubDate>
-      
-      <guid>https://phpday.teomiscia.com/tags/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>business</title>
-      <link>https://phpday.teomiscia.com/tags/business/</link>
-      <pubDate>Sun, 15 Jul 2018 12:21:58 +0600</pubDate>
-      
-      <guid>https://phpday.teomiscia.com/tags/business/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>people</title>
-      <link>https://phpday.teomiscia.com/tags/people/</link>
-      <pubDate>Sun, 15 Jul 2018 12:21:58 +0600</pubDate>
-      
-      <guid>https://phpday.teomiscia.com/tags/people/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>install</title>
-      <link>https://phpday.teomiscia.com/tags/install/</link>
-      <pubDate>Sun, 08 Jul 2018 12:22:40 +0600</pubDate>
-      
-      <guid>https://phpday.teomiscia.com/tags/install/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

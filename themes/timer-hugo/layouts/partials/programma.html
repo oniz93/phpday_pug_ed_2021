@@ -1,0 +1,61 @@
+{{ if .Site.Params.about.enable }}
+{{ "<!-- About Section Start -->" | safeHTML }}
+<section id="programma" style="background-color: white; color:black;">
+    <div class="container-fluid">
+        <div class="row programma-title" style="text-align: center;">
+            <div class="col-sm">
+                <h2>Programma</h2>
+            </div>
+        </div>
+        <div class="row programma-giorno" style="text-align: center;">
+            <div class="col-sm">
+                <h2>14 Maggio 2020</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center righe-giorno">
+            <div class="container-fluid">
+                {{ range .Site.Params.Giorno_uno}}
+                <div class="row programma-row">
+                    <div class="col-sm-2 offset-sm-1">
+                        <div class="block wow fadeInRight text-center" data-wow-delay=".3s" data-wow-duration="500ms">
+                            <span class="orario">{{ .orario }}</span>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                            <h4>{{ .title }}</h4>
+                            <p style="color:black;">{{ .description | safeHTML }}</p>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        <div class="row programma-giorno">
+            <div class="col-sm" style="text-align: center;">
+                <h2>15 Maggio 2020</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center righe-giorno">
+            <div class="container-fluid">
+                {{ range .Site.Params.Giorno_due}}
+                <div class="row programma-row">
+                    <div class="col-sm-2 offset-sm-1">
+                        <div class="block wow fadeInRight text-center" data-wow-delay=".3s" data-wow-duration="500ms">
+                            <span class="orario">{{ .orario }}</span>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                            <h4>{{ .title }}</h4>
+                            <p style="color:black;">{{ .description | safeHTML }}</p>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- About Section End -->" | safeHTML }}
+{{ end }}
