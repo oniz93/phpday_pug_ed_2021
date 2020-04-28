@@ -1,4 +1,4 @@
-baseURL = "https://phpday.teomiscia.com/"
+baseURL = "https://pug.phpday.it/"
 languageCode = "it-it"
 title = "phpday PUG Edition"
 theme = "timer-hugo"
