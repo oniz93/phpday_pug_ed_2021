@@ -396,7 +396,6 @@ a.navbar-brand img {
   margin-top: 20px;
   font-size: 12px;
   letter-spacing: 2px;
-  
   border-radius: 0;
   transition: all linear .2s;
 }
@@ -476,7 +475,7 @@ a.navbar-brand img {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 30px;
-  
+
 }
 
 #about .block p {
@@ -503,7 +502,7 @@ a.navbar-brand img {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 30px;
-  
+
 }
 
 #about2 .block p {
@@ -749,4 +748,8 @@ ul.social-icons li {
   text-decoration: none;
 }
 
+.background-pug {
+  background-color: #6181B6;
+  color: white;
+}
 /*# sourceMappingURL=maps/style.css.map */
