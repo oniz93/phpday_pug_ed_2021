@@ -360,6 +360,7 @@ a.navbar-brand img {
 }
 
 #call-to-action {
+  background: #6181B6;
   background-size: cover;
   background-attachment: fixed;
   padding: 80px 0;
@@ -438,6 +439,7 @@ a.navbar-brand img {
 }
 
 #call-to-action2 .block .btn-contact {
+  background: #6181B6;
   color: white;
   font-size: 2.5em;
   letter-spacing: 1px;
@@ -489,6 +491,7 @@ a.navbar-brand img {
 
 #about2 {
   padding: 20px 0 50px 0;
+  /* border-bottom: 2px solid #6181B6; */
 }
 
 #about2 .block {
@@ -528,7 +531,8 @@ a.navbar-brand img {
 
 #pug .pug-row {
   border-bottom: #6181B6 solid 2px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  padding: 10px 0 25px;
   vertical-align: middle;
 }
 
@@ -544,6 +548,7 @@ a.navbar-brand img {
 #programma .programma-title {
   padding: 15px 0 10px 0;
   margin-bottom: 40px;
+  background-color: #6181B6; 
   color:white;
 }
 
@@ -561,6 +566,8 @@ a.navbar-brand img {
   padding: 7px 0 2px 0;
   max-width: 80%;
   margin-left: 10%;
+  background-color: #6181B6; 
+  color: white;
   margin-top: 30px;
   margin-bottom: 15px;
 
