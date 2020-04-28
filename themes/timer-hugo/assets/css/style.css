@@ -295,15 +295,21 @@ a.navbar-brand img {
   position: relative;
   margin-top: 60px;
 }
-
+.about-section {
+  margin-right: 10px;
+}
 .about-number {
   font-size: 4.5em;
-  border-bottom: white 2px solid;
   font-weight: 500;
 }
 
 .about-text {
   font-size: 1.3em;
+}
+
+.about-text span {
+  padding: 8px 5px;
+  border-top: white 2px solid;
 }
 
 #hero-area:before {
