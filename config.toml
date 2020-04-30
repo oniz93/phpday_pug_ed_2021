@@ -56,108 +56,129 @@ btnText = "ISCRIVITI GRATUITAMENTE"
 btnURL  = "https://phpday-pug-ed.eventbrite.it/"
 
 # I PUG
-[[params.pug]]
-icon = "images/grusp/pug-firenze.png"
-title = "Come funziona un framework: Deep dive nel Request Cycle di Laravel"
-abstract = "“Non so perché... ma funziona!”<br/>Quante volte ve lo siete chiesto? Usare un framework è appagante: in poco tempo siamo operativi, possiamo creare un MVP velocemente e un senso di “magia” ci pervade.<br/>Ma cosa succede dietro le quinte? Questo talk vi aiuterà a capire come funziona il cuore di Laravel e risolvere il vostro dilemma iniziale: “Perché... funziona!”"
-
-[[params.pug]]
-icon = "images/grusp/pug-pescara.png"
-title = "Filtering API: API REST con alcune comodità di GraphQL"
-abstract = ""
 
 [[params.pug]]
 icon = "images/grusp/pug-catania.jpg"
-title = "TDD💙BDD💙PHP - Sviluppo guidato dai test in PHP con phpspec"
-abstract = "Phpspec è uno strumento che può aiutarci a scrivere codice pulito e funzionante facilitandoci nell'adottare delle pratiche di Behaviour-Driven Development (BDD). Ma cos’è il BDD? Qual è la differenza tra il BDD e il Test-Driven Development (TDD)? Quali sono le differenze tra le famiglie di tool xSpec e xUnit? Quali strumenti mette a disposizione l’ecosistema PHP per praticare il TDD? Infine passeremo dalla teoria alla pratica risolvendo un problema in TDD con phpspec."
+title = "PUG Catania"
+abstract = "Il PUG Catania rinasce dopo qualche anno di inattività a novembre 2019 organizzando il primo meetup già a dicembre 2019.<br/>Lo scopo è quello di ricostruire la community di sviluppatori PHP Catanese e renderla un luogo di confronto dove condividere esperienze lavorative e accresce il proprio bagaglio culturale permettendo a professionisti e appassionati di fare networking.<br />Dopo appena 5 mesi di attività può contare su un centinaio di iscritti e una media di 30 presenze ad evento."
 
 [[params.pug]]
 icon = "images/grusp/pug-roma.png"
-title = "AA.VV. - The old guard of PUG Roma"
-abstract = "In questo panel insieme ad alcuni personaggi illustri appartenenti alla vecchia guardia del PUG Roma parleremo di scelte tecnologiche ed esperienze di vita da developer ai giorni d'oggi."
+title = "PUG Roma"
+abstract = "Il PUG Roma nasce nel lontano luglio 2010 come costola locale del GrUSP, il Gruppo Utenti e Sviluppatori PHP Italiani. Ci incontriamo ogni ultimo martedì del mese e spesso parliamo di tecniche di programmazione, di metodologie di sviluppo e di design pattern. Ovviamente parliamo anche di linguaggi e spesso di PHP, ma non ci poniamo limiti in questo senso."
 
 [[params.pug]]
 icon = "images/grusp/pug-torino.png"
-title = "Anteprima delle novità del PHP 8"
-abstract = "In questo talk verranno presentate in anteprima alcune delle novità della prossima major release del PHP. In particolare, analizzeremo le funzionalità del Just In Time compiler (JIT), delle union types, dello static return type, delle weak maps, della nuova interfaccia Stringable e di alcune delle funzionalità deprecate. Proveremo anche a valutare l'impatto sulle performance in confronto con il PHP 7. Su questo tema, approfondiremo il funzionamento del JIT illustrandone i vantaggi e i limiti."
+abstract = "Il PUG Torino nasce nel 2011 dopo una <a href='http://torino.grusp.org/2011/06/e-nato-il-pug-torino/' target='_blank'>cena in pizzeria tra pochi curiosi</a>. Dopo i primi incontri il gruppo cresce notevolmente di numero al punto da decidere di organizzare delle vere e proprie conferenze nazionali: PHP.TO.START del 2012 e 2013, il primo Symfony Day del 2012 e lo Zend Framework Day del 2014. In questi ultimi anni abbiamo organizzato diversi meetup con frequenza bimestrale affrontando diversi argomenti anche non sempre legati al mondo del PHP. Dal 2018 abbiamo la sponsorship del <a href='https://www.toolboxoffice.it/' target='_blank'>Toolbox coworking di Torino</a> che ci ospita gratuitamente in una sala attrezzata con più di 100 posti a sedere."
+title = "PUG Torino"
 
-[[params.pug]]
-icon = "images/grusp/pug-romagna.png"
-title = "TBD"
-abstract = "TBD"
 
 [[params.pug]]
 icon = "images/grusp/pug-more.png"
-title = "composer require Wordpress"
-abstract = "Diciamoci la verità non proprio a tutti piace Wordpress, ma se Wordpress fosse una semplice dipendenza del nostro progetto?<br />Durante l'incontro vi mostrerò uno use-case e i vantaggi che ha portato questo tipo di approccio nello sviluppo di un sito Wordpress."
+title = "PUG MoRe"
+abstract = "I primi incontri divulgativi organizzati sono avvenuti tra la fine del 2013 e gli inizi del 2014. Nel 2015 ha organizzato il Symfony Day.<br />Dopo una lunga pausa, con l'intenzione di rinascere dalle ceneri come l'araba fenice, ha ricominciato ad organizzare approfondimenti ed eventi."
 
 [[params.pug]]
 icon = "images/grusp/pug-rovigo.png"
-title = "Server Automation con Laravel Zero"
-abstract = "Esploriamo lo sviluppo di tool in linea di comando con PHP con l'ausilio del Framework Laravel Zero; un tool per chi  vuole cimentarsi con il devops facendo largo uso delle proprie conoscenze da programmatore PHP."
+title = "PUG Rovigo"
+abstract = "Nato nell'estate del 2019 da un gruppo che voleva confrontarsi con le tematiche del framework Scrum e Agile in generale; successivamente ci siamo allargati alla programmazione e gestione delle infrastrutture e dei progetti."
 
-# programma girono uno
+[[params.pug]]
+icon = "images/grusp/pug-romagna.png"
+title = "PUG Romagna"
+abstract = ""
+
+[[params.pug]]
+icon = "images/grusp/pug-firenze.png"
+title = "PUG Firenze"
+abstract = ""
+
+[[params.pug]]
+icon = "images/grusp/pug-pescara.png"
+title = "PUG Pescara"
+abstract = ""
+
+# programma giorno uno
 
 [[params.giorno_uno]]
-orario = "16.00"
-title = "Presentazione del GrUSP"
+orario = "15.00"
+title = "Apertura GrUSP"
 description = "GrUSP"
 
 [[params.giorno_uno]]
-orario = "16.15"
+orario = "15.20"
 title = "Come funziona un framework: Deep dive nel Request Cycle di Laravel"
-description = "PUG Firenze"
+description = "“Non so perché... ma funziona!”<br/>Quante volte ve lo siete chiesto? Usare un framework è appagante: in poco tempo siamo operativi, possiamo creare un MVP velocemente e un senso di “magia” ci pervade.<br/>Ma cosa succede dietro le quinte? Questo talk vi aiuterà a capire come funziona il cuore di Laravel e risolvere il vostro dilemma iniziale: “Perché... funziona!”"
+author="Leonardo Rossi - PUG Firenze"
+
+[[params.giorno_uno]]
+orario = "16.10"
+title = "Anteprima delle novità del PHP 8"
+description = "In questo talk verranno presentate in anteprima alcune delle novità della prossima major release del PHP. In particolare, analizzeremo le funzionalità del Just In Time compiler (JIT), delle union types, dello static return type, delle weak maps, della nuova interfaccia Stringable e di alcune delle funzionalità deprecate. Proveremo anche a valutare l'impatto sulle performance in confronto con il PHP 7. Su questo tema, approfondiremo il funzionamento del JIT illustrandone i vantaggi e i limiti."
+author = "Enrico Zimuel - PUG Torino"
 
 [[params.giorno_uno]]
 orario = "17.00"
-title = "Filtering API: API REST con alcune comodità di GraphQL"
-description = "PUG Pescara"
+title = "Pausa"
+description = ""
+author = ""
 
 [[params.giorno_uno]]
-orario = "17.45"
-title = "TDD💙BDD💙PHP - Sviluppo guidato dai test in PHP con phpspec"
-description = "PUG Catania"
+orario = "17.20"
+title = "Server Automation con Laravel Zero"
+description = "Esploriamo lo sviluppo di tool in linea di comando con PHP con l'ausilio del Framework Laravel Zero; un tool per chi  vuole cimentarsi con il devops facendo largo uso delle proprie conoscenze da programmatore PHP."
+author = "PUG Rovigo"
 
 [[params.giorno_uno]]
-orario = "18.30"
-title = "AA.VV. - The old guard of PUG Roma"
-description = "PUG Roma"
+orario = "18.10"
+title = "cComunicare, condividere e mantenere decisioni architetturali nei team di sviluppo: approcci e strumenti"
+description = "Nella vita quotidiana di un team di sviluppo ci si trova a dover prendere decisioni sull'architettura: implementiamo un sistema basato su CQRS? Quali principi del Domain Driven Design vogliamo applicare e come? Un approccio CRUD è sufficiente in questo contesto?<br />Sia che questa decisione sia presa in modo partecipativo o meno ed indipendentemente dalla risposta, come ci assicuriamo che tutti rispettino la scelta fatta? In questo talk vedremo quali approcci e strumenti abbiamo a disposizione per comunicare, condividere e controllare le decisioni architetturali."
+author = "PUG Romagna"
 
 [[params.giorno_uno]]
-orario = "19.15"
-title = "Chiusura"
+orario = "19.00"
+title = "Saluti"
 description = "GrUSP"
 
 # programma giorno due
 
 [[params.giorno_due]]
-orario = "16.00"
-title = "Presentazione del GrUSP"
+orario = "15.00"
+title = "Apertura GrUSP"
 description = "GrUSP"
 
 [[params.giorno_due]]
-orario = "16.15"
-title = "Anteprima delle novità del PHP 8"
-description = "PUG Torino"
+orario = "15.20"
+title = "AA.VV. - The old guard of PUG Roma"
+description = "In questo panel insieme ad alcuni personaggi illustri appartenenti alla vecchia guardia del PUG Roma parleremo di scelte tecnologiche ed esperienze di vita da developer ai giorni d'oggi.<br />Speaker:<br />Massimiliano<br />Alessandro Cinelli<br />Giulio De Donato<br />Alessandro Nadalin<br />Jacopo Romei<br /><br />Moderatore:<br />Andrea Giannantonio"
+author = "PUG Roma"
+
+[[params.giorno_due]]
+orario = "16.10"
+title = "TDD💙BDD💙PHP - Sviluppo guidato dai test in PHP con phpspec"
+description = "Phpspec è uno strumento che può aiutarci a scrivere codice pulito e funzionante facilitandoci nell'adottare delle pratiche di Behaviour-Driven Development (BDD). Ma cos’è il BDD? Qual è la differenza tra il BDD e il Test-Driven Development (TDD)? Quali sono le differenze tra le famiglie di tool xSpec e xUnit? Quali strumenti mette a disposizione l’ecosistema PHP per praticare il TDD? Infine passeremo dalla teoria alla pratica risolvendo un problema in TDD con phpspec."
+author = "PUG Catania"
 
 [[params.giorno_due]]
 orario = "17.00"
-title = "Ci stanno pensando"
-description = "PUG Romagna"
+title = "Pausa"
+description = ""
 
 [[params.giorno_due]]
-orario = "17.45"
+orario = "17.20"
+title = "Filtering API: API REST con alcune comodità di GraphQL"
+description = "Le API REST sono il motore dei nostri frontend. Vediamo come evitare di riscrivere troppo codice dando liberà al client di interrogare le API con delle opzioni per ordinare e filtrare in maniera autonoma.<br />Verranno presentati due approcci, uno basato sul query builder di Spatie per Laravel e uno basato su una semplice classe personalizzabile all'occorrenza"
+author = "Teo Miscia - PUG Pescara"
+
+[[params.giorno_due]]
+orario = "18.10"
 title = "composer require Wordpress"
-description = "PUG MoRe"
+description = "Diciamoci la verità non proprio a tutti piace Wordpress, ma se Wordpress fosse una semplice dipendenza del nostro progetto?<br />Durante l'incontro vi mostrerò uno use-case e i vantaggi che ha portato questo tipo di approccio nello sviluppo di un sito Wordpress."
+author = "PUG MoRe"
 
 [[params.giorno_due]]
-orario = "18.30"
-title = "Server Automation con Laravel Zero"
-description = "PUG Rovigo"
-
-[[params.giorno_due]]
-orario = "19.15"
-title = "Chiusura"
+orario = "19.00"
+title = "Saluti"
 description = "GrUSP"
 
 # social icon 
