@@ -131,7 +131,7 @@ author = "PUG Rovigo"
 
 [[params.giorno_uno]]
 orario = "18.10"
-title = "cComunicare, condividere e mantenere decisioni architetturali nei team di sviluppo: approcci e strumenti"
+title = "Comunicare, condividere e mantenere decisioni architetturali nei team di sviluppo: approcci e strumenti"
 description = "Nella vita quotidiana di un team di sviluppo ci si trova a dover prendere decisioni sull'architettura: implementiamo un sistema basato su CQRS? Quali principi del Domain Driven Design vogliamo applicare e come? Un approccio CRUD è sufficiente in questo contesto?<br />Sia che questa decisione sia presa in modo partecipativo o meno ed indipendentemente dalla risposta, come ci assicuriamo che tutti rispettino la scelta fatta? In questo talk vedremo quali approcci e strumenti abbiamo a disposizione per comunicare, condividere e controllare le decisioni architetturali."
 author = "PUG Romagna"
 
@@ -150,7 +150,7 @@ description = "GrUSP"
 [[params.giorno_due]]
 orario = "15.20"
 title = "AA.VV. - The old guard of PUG Roma"
-description = "In questo panel insieme ad alcuni personaggi illustri appartenenti alla vecchia guardia del PUG Roma parleremo di scelte tecnologiche ed esperienze di vita da developer ai giorni d'oggi.<br />Speaker:<br />Massimiliano<br />Alessandro Cinelli<br />Giulio De Donato<br />Alessandro Nadalin<br />Jacopo Romei<br /><br />Moderatore:<br />Andrea Giannantonio"
+description = "In questo panel insieme ad alcuni personaggi illustri appartenenti alla vecchia guardia del PUG Roma parleremo di scelte tecnologiche ed esperienze di vita da developer ai giorni d'oggi.<br />Speaker:<br/>Massimiliano Arione, Alessandro Cinelli, Giulio De Donato, Alessandro Nadalin, Jacopo Romei<br />Moderatore: Andrea Giannantonio"
 author = "PUG Roma"
 
 [[params.giorno_due]]
