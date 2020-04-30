@@ -18,7 +18,7 @@ weight  = 3
 # Site Params
 [params]
 home = "Home"
-logo = "images/grusp/grusp-logo.svg"
+logo = "images/grusp/grusp.svg"
 dateFormat = "6 January 2006"
 # Meta data
 description = "phpday PUG Edition by GrUSP"
@@ -47,7 +47,7 @@ talks_desc = "Talk"
 enable  = true
 title   = "Chi sono i PUG?"
 content = 'I PUG sono i PHP User Group: community locali dislocate su tutto il territorio nazionale che organizzano meetup verticali php e non solo.<br/>Negli anni GrUSP ha favorito la nascita dei PUG supportando i vari gruppi da un punto di vista organizzativo, promozionale ed economico.<br/>Partecipa ai meetup del <a href="http://www.grusp.org/it/pug.html" target="_blank">PUG più vicino a te!</a>'
-image = "images/grusp/pug-logo2.png"
+image = "images/grusp/PUG_Club.svg"
 
 # Call to Action
 [params.cta]
@@ -68,7 +68,7 @@ title = "PUG Roma"
 abstract = "Il PUG Roma nasce nel lontano luglio 2010 come costola locale del GrUSP, il Gruppo Utenti e Sviluppatori PHP Italiani. Ci incontriamo ogni ultimo martedì del mese e spesso parliamo di tecniche di programmazione, di metodologie di sviluppo e di design pattern. Ovviamente parliamo anche di linguaggi e spesso di PHP, ma non ci poniamo limiti in questo senso."
 
 [[params.pug]]
-icon = "images/grusp/pug-torino.png"
+icon = "images/grusp/pugTorino.svg"
 abstract = "Il PUG Torino nasce nel 2011 dopo una <a href='http://torino.grusp.org/2011/06/e-nato-il-pug-torino/' target='_blank'>cena in pizzeria tra pochi curiosi</a>. Dopo i primi incontri il gruppo cresce notevolmente di numero al punto da decidere di organizzare delle vere e proprie conferenze nazionali: PHP.TO.START del 2012 e 2013, il primo Symfony Day del 2012 e lo Zend Framework Day del 2014. In questi ultimi anni abbiamo organizzato diversi meetup con frequenza bimestrale affrontando diversi argomenti anche non sempre legati al mondo del PHP. Dal 2018 abbiamo la sponsorship del <a href='https://www.toolboxoffice.it/' target='_blank'>Toolbox coworking di Torino</a> che ci ospita gratuitamente in una sala attrezzata con più di 100 posti a sedere."
 title = "PUG Torino"
 
@@ -89,12 +89,12 @@ title = "PUG Romagna"
 abstract = ""
 
 [[params.pug]]
-icon = "images/grusp/pug-firenze.png"
+icon = "images/grusp/pugFirenze.svg"
 title = "PUG Firenze"
 abstract = ""
 
 [[params.pug]]
-icon = "images/grusp/pug-pescara.png"
+icon = "images/grusp/pugPescara.svg"
 title = "PUG Pescara"
 abstract = ""
 

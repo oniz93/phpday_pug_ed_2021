@@ -285,15 +285,15 @@ a.navbar-brand img {
 }
 
 #hero-area {
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: center center;
-  background-size: 100% 100%;
+  background-size: 100% 100%; */
  /* background-attachment: fixed;*/
-  padding: 85px 0 65px 0;
-  color: #fff;
+  padding: 75px 0 20px 0;
+  /* color: #fff;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   position: relative;
-  margin-top: 60px;
+  margin-top: 60px; */
 }
 .about-section {
   margin-right: 10px;
@@ -315,7 +315,7 @@ a.navbar-brand img {
 #hero-area:before {
   content: '';
   z-index: 9;
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0);
   position: absolute;
   top: 0;
   left: 0;
