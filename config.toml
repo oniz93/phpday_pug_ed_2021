@@ -36,7 +36,7 @@ enable = true
 [params.about]
 enable  = true
 title   = "Di cosa si tratta?"
-content = "Vista l'impossibilità di organizzare il phpday a Verona a causa del COVID-19 abbiamo pensato di organizzare un'edizione online gratuita dell'evento  insieme a tutti i PUG italiani negli stessi giorni in cui era previsto la conferenza."
+content = "Un fantastico evento online di due pomeriggi organizzato da GrUSP e tutti i PUG a livello nazionale. Vista l'impossibilità di organizzare il phpday a Verona a causa del COVID-19 abbiamo pensato di organizzare un'edizione online gratuita dell'evento negli stessi giorni in cui era prevista la conferenza.<br/> L’evento sarà in italiano. Ogni sessione durerà 45 min: 30 min di talk e 15 min di Q&A. Sarà possibile interagire tra i partecipanti anche attraverso lo slack del GrUSP sul canale #phpday."
 days_number = "2"
 days_desc = "Pomeriggi"
 talks_number = "8"
@@ -45,8 +45,8 @@ talks_desc = "Talk"
 # Homepage About2 Section
 [params.about2]
 enable  = true
-title   = "Che cosa sono i PUG?"
-content = "Negli anni GrUSP ha favorito la nascita di diversi PHP user group locali, i quali hanno totale autonomia di gestione e coordinano i meetup locali a nome del GrUSP."
+title   = "Chi sono i PUG?"
+content = 'I PUG sono i PHP User Group: community locali dislocate su tutto il territorio nazionale che organizzano meetup verticali php e non solo.<br/>Negli anni GrUSP ha favorito la nascita dei PUG supportando i vari gruppi da un punto di vista organizzativo, promozionale ed economico.<br/>Partecipa ai meetup del <a href="http://www.grusp.org/it/pug.html" target="_blank">PUG più vicino a te!</a>'
 image = "images/grusp/pug-logo2.png"
 
 # Call to Action
@@ -160,15 +160,15 @@ orario = "19.15"
 title = "Chiusura"
 description = "GrUSP"
 
-# social icon 
+# social icon
 [[params.socialIcon]]
 icon = "ion-social-facebook"
-url = "#"
+url = "https://www.facebook.com/GrUSP/"
 
 [[params.socialIcon]]
-icon = "ion-social-instagram"
-url = "#"
+icon = "ion-social-twitter"
+url = "https://twitter.com/grusp"
 
 [[params.socialIcon]]
 icon = "ion-social-linkedin"
-url = "#"
+url = "https://www.linkedin.com/company/grusp/"
