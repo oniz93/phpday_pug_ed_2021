@@ -63,15 +63,9 @@ title = "PUG Catania"
 abstract = "Il PUG Catania rinasce dopo qualche anno di inattività a novembre 2019 organizzando il primo meetup già a dicembre 2019.<br/>Lo scopo è quello di ricostruire la community di sviluppatori PHP Catanese e renderla un luogo di confronto dove condividere esperienze lavorative e accresce il proprio bagaglio culturale permettendo a professionisti e appassionati di fare networking.<br />Dopo appena 5 mesi di attività può contare su un centinaio di iscritti e una media di 30 presenze ad evento."
 
 [[params.pug]]
-icon = "images/grusp/pug-roma.png"
-title = "PUG Roma"
-abstract = "Il PUG Roma nasce nel lontano luglio 2010 come costola locale del GrUSP, il Gruppo Utenti e Sviluppatori PHP Italiani. Ci incontriamo ogni ultimo martedì del mese e spesso parliamo di tecniche di programmazione, di metodologie di sviluppo e di design pattern. Ovviamente parliamo anche di linguaggi e spesso di PHP, ma non ci poniamo limiti in questo senso."
-
-[[params.pug]]
-icon = "images/grusp/pugTorino.svg"
-abstract = "Il PUG Torino nasce nel 2011 dopo una <a href='http://torino.grusp.org/2011/06/e-nato-il-pug-torino/' target='_blank'>cena in pizzeria tra pochi curiosi</a>. Dopo i primi incontri il gruppo cresce notevolmente di numero al punto da decidere di organizzare delle vere e proprie conferenze nazionali: PHP.TO.START del 2012 e 2013, il primo Symfony Day del 2012 e lo Zend Framework Day del 2014. In questi ultimi anni abbiamo organizzato diversi meetup con frequenza bimestrale affrontando diversi argomenti anche non sempre legati al mondo del PHP. Dal 2018 abbiamo la sponsorship del <a href='https://www.toolboxoffice.it/' target='_blank'>Toolbox coworking di Torino</a> che ci ospita gratuitamente in una sala attrezzata con più di 100 posti a sedere."
-title = "PUG Torino"
-
+icon = "images/grusp/pugFirenze.svg"
+title = "PUG Firenze"
+abstract = ""
 
 [[params.pug]]
 icon = "images/grusp/pug-more.png"
@@ -79,9 +73,14 @@ title = "PUG MoRe"
 abstract = "I primi incontri divulgativi organizzati sono avvenuti tra la fine del 2013 e gli inizi del 2014. Nel 2015 ha organizzato il Symfony Day.<br />Dopo una lunga pausa, con l'intenzione di rinascere dalle ceneri come l'araba fenice, ha ricominciato ad organizzare approfondimenti ed eventi."
 
 [[params.pug]]
-icon = "images/grusp/pug-rovigo.png"
-title = "PUG Rovigo"
-abstract = "Nato nell'estate del 2019 da un gruppo che voleva confrontarsi con le tematiche del framework Scrum e Agile in generale; successivamente ci siamo allargati alla programmazione e gestione delle infrastrutture e dei progetti."
+icon = "images/grusp/pugPescara.svg"
+title = "PUG Pescara"
+abstract = ""
+
+[[params.pug]]
+icon = "images/grusp/pug-roma.png"
+title = "PUG Roma"
+abstract = "Il PUG Roma nasce nel lontano luglio 2010 come costola locale del GrUSP, il Gruppo Utenti e Sviluppatori PHP Italiani. Ci incontriamo ogni ultimo martedì del mese e spesso parliamo di tecniche di programmazione, di metodologie di sviluppo e di design pattern. Ovviamente parliamo anche di linguaggi e spesso di PHP, ma non ci poniamo limiti in questo senso."
 
 [[params.pug]]
 icon = "images/grusp/pug-romagna.png"
@@ -89,14 +88,14 @@ title = "PUG Romagna"
 abstract = ""
 
 [[params.pug]]
-icon = "images/grusp/pugFirenze.svg"
-title = "PUG Firenze"
-abstract = ""
+icon = "images/grusp/pug-rovigo.png"
+title = "PUG Rovigo"
+abstract = "Nato nell'estate del 2019 da un gruppo che voleva confrontarsi con le tematiche del framework Scrum e Agile in generale; successivamente ci siamo allargati alla programmazione e gestione delle infrastrutture e dei progetti."
 
 [[params.pug]]
-icon = "images/grusp/pugPescara.svg"
-title = "PUG Pescara"
-abstract = ""
+icon = "images/grusp/pugTorino.svg"
+abstract = "Il PUG Torino nasce nel 2011 dopo una <a href='http://torino.grusp.org/2011/06/e-nato-il-pug-torino/' target='_blank'>cena in pizzeria tra pochi curiosi</a>. Dopo i primi incontri il gruppo cresce notevolmente di numero al punto da decidere di organizzare delle vere e proprie conferenze nazionali: PHP.TO.START del 2012 e 2013, il primo Symfony Day del 2012 e lo Zend Framework Day del 2014. In questi ultimi anni abbiamo organizzato diversi meetup con frequenza bimestrale affrontando diversi argomenti anche non sempre legati al mondo del PHP. Dal 2018 abbiamo la sponsorship del <a href='https://www.toolboxoffice.it/' target='_blank'>Toolbox coworking di Torino</a> che ci ospita gratuitamente in una sala attrezzata con più di 100 posti a sedere."
+title = "PUG Torino"
 
 # programma giorno uno
 
