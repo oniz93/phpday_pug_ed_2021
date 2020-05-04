@@ -149,7 +149,7 @@ description = "GrUSP"
 [[params.giorno_due]]
 orario = "15.20"
 title = "AA.VV. - The old guard of PUG Roma"
-description = "In questo panel insieme ad alcuni personaggi illustri appartenenti alla vecchia guardia del PUG Roma parleremo di scelte tecnologiche ed esperienze di vita da developer ai giorni d'oggi.<br />Speakers: Massimiliano Arione, Alessandro Cinelli, Giulio De Donato, Alessandro Nadalin, Jacopo Romei<br />Moderatore: Andrea Giannantonio"
+description = "In questo panel insieme ad alcuni personaggi illustri appartenenti alla vecchia guardia del PUG Roma parleremo di scelte tecnologiche ed esperienze di vita da developer.<br />Speakers: Massimiliano Arione, Alessandro Cinelli, Giulio De Donato, Alessandro Nadalin e Jacopo Romei<br />Moderatore: Andrea Giannantonio"
 author = "PUG Roma"
 
 [[params.giorno_due]]
