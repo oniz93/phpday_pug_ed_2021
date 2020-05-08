@@ -85,7 +85,7 @@ abstract = "Il PUG Roma nasce nel lontano luglio 2010 come costola locale del Gr
 [[params.pug]]
 icon = "images/grusp/pug-romagna.png"
 title = "PUG Romagna"
-abstract = "I primi incontri divulgativi organizzati sono avvenuti tra la fine del 2013 e gli inizi del 2014. Nel 2015 ha organizzato il Symfony Day. <br />Dopo una lunga pausa, con l'intenzione di rinascere dalle ceneri come l'araba fenice, ha ricominciato ad organizzare approfondimenti ed eventi."
+abstract = "Il PUG Romagna nasce nel dicembre del 2017 dalla volontà di tre sviluppatori che volevano partecipare al PHP Dev Test. <br />Inaugurato ufficialmente con una cena nel gennaio 2018, il PUG Romagna si incontra ogni primo martedì del mese. <br />Come suggerisce il nome, il PUG Romagna si è dato come obiettivo quello di coprire tutto il territorio romagnolo, da Rimini a Faenza, da Ravenna a Cesena: ogni mese il meetup si svolge in una città diversa, per avvicinare tutti gli sviluppatori del territorio e condividere insieme conoscenze, esperienze e nuove opportunità."
 
 [[params.pug]]
 icon = "images/grusp/pug-rovigo.png"
