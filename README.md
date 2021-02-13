@@ -1,4 +1,4 @@
-# phpday: PUG Edition 14 - 15 Maggio 2020
+# phpday: PUG Edition 18 Marzo 2021
 
 Static site generator for the PUG event!
 
