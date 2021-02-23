@@ -1,0 +1,26 @@
+<section id="pug" style="background-color: white; color:black;">
+    <div class="container-fluid pug-title background-pug">
+        <div class="row" style="text-align: center;">
+            <div class="col-sm">
+                <h2>Chi sono gli speaker?</h2>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        {{ range .Site.Params.Speaker}}
+        <div class="row pug-row">
+            <div class="col-sm">
+                <div class="block wow fadeInRight text-center" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <img src="{{ .icon }}">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h4>{{ .name }}</h4>
+                    <p style="color:black;">{{ .bio | safeHTML }}</p>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>

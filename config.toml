@@ -36,7 +36,7 @@ enable = true
 [params.about]
 enable  = true
 title   = "Di cosa si tratta?"
-content = "Un fantastico evento online di una giornata organizzato da GrUSP e tutti i PUG a livello nazionale. Vista l'impossibilità di organizzare il phpday a Verona a causa del COVID-19 abbiamo pensato di organizzare un'edizione online gratuita dell'evento negli stessi giorni in cui era prevista la conferenza.<br/> L’evento sarà in italiano. Le sessioni durereranno 30 min o 45 min + 15 min di Q&A. Sarà possibile interagire tra i partecipanti anche attraverso lo slack del GrUSP sul canale #phpday."
+content = "Un evento online e gratuito di una giornata, organizzato dai PUG (PHP User Group) italiani.<br>phpday PUG Edition è nato nel 2020 dalla volontà della community di incontrarsi, non potendolo fare come ogni anno a Verona al <a href='https://www.phpday.it' style='color: white'>phpday</a>.<br>L’evento è in italiano e si svolgerà in una venue virtuale che permette di interagire, incontrarsi e partecipare attivamente. <a href='https://phpday-pug-edition-2021.eventbrite.com' target='_blank' style='color: white'>Registrati gratuitamente!</a>"
 days_number = "1"
 days_desc = "Giorno"
 talks_number = "7"
@@ -107,13 +107,13 @@ description = "GrUSP"
 [[params.giorno_uno]]
 orario = "09:30"
 title = "Design Patterns: Head-first vs Emergent"
-description = ""
+description = "I Design Patterns sono uno strumento consolidato per risolvere problemi di design ricorrenti. Tuttavia, applicarli a testa bassa è spesso non necessario ed a volte addirittura controproducente. La necessità di adottarli infatti \"emerge\" lungo la strada e la loro implementazione è una conseguenza che rientra nella naturale prassi del refactoring.<br/><br/>Il refactoring non è un vezzo, ma una necessità fisiologica del codice che evolve.<br/><br/>Imparare in modo critico a riconoscere queste situazioni, accettarle, e infine ristrutturare il codice in modo efficace e senza rischi, è un'abilità che può far la differenza fra un architect ed un programmatore qualunque."
 author="<a href='https://twitter.com/' target='_blank'>Roberto Gallea</a> - PUG Palermo"
 
 [[params.giorno_uno]]
 orario = "10:30"
 title = "How can I trust my test suite? / Come posso fidarmi della mia suite di test?"
-description = ""
+description = "Hai appena iniziato a lavorare su un nuovo progetto, oppure ci stai lavorando da un po' ma si è evoluto molto nel tempo, con il contributo di tanti sviluppatori diversi. Questo significa che probabilmente non conosci abbastanza come i test automatici sono stati scritti e quanto sono efficaci. <br/><br/>Quindi come puoi essere fiducioso nel rilasciare nuove funzionalità in produzione, o rifattorizzare quel vecchio pezzo di codice che ti sta rallentando tanto? Sei abbastanza sicuro che se la build nella tua CI è verde non si romperà nulla in produzione?<br/>Ci sono parecchi tool nell'ecosistema PHP che posso darti delle metriche sul tuo codice e i tuoi test, come la code coverage or l'indice CRAP, ma sono significative fino ad un certo punto.<br/>In questo talk vedremo come puoi misurare l'efficacia dei tuoi test, come puoi migliorarla, e quali sono i benefici dell'avere una suite di test completa ed affidabile."
 author = "<a href='https://twitter.com/' target='_blank'>Antonello D'ippolito</a> - PUG Roma"
 
 [[params.giorno_uno]]
@@ -125,13 +125,13 @@ author = ""
 [[params.giorno_uno]]
 orario = "11:30"
 title = "Sindrome dell'impostore, fiducia in se stessi e motivazione"
-description = ""
+description = "La sindrome dell’impostore è quella condizione in cui ci sentiamo di essere fuori luogo e di poter essere smascherati da un momento all’altro. <br>Specialmente se si lavora sotto pressione o in situazioni stressanti, è probabile incorrere in dei problemi e arrivare a pensare di non esserne all’altezza, fino a sentirsi fuori posto. <br/>Superiamo le difficoltà, coltivando fiducia in noi stessi e troviamo la giusta motivazione per migliorare la nostra qualità del lavoro e della vita"
 author = "<a href='https://twitter.com/' target='_blank'>Manuel Trebbi</a> - PUG Romagna"
 
 [[params.giorno_uno]]
 orario = "12:30"
 title = "Git branching model"
-description = ""
+description = "- Perchè organizzare i branch git<br/>- Git flow<br/>- Alternative al git flow<br/>- Quale metodo usare in base al team/progetto/deploy<br/>- Le 10 regole da ricordare"
 author = "<a href='https://twitter.com/' target='_blank'>Giuseppe Morelli</a> - PUG Romagna"
 
 [[params.giorno_uno]]
@@ -143,13 +143,13 @@ author = ""
 [[params.giorno_uno]]
 orario = "14:30"
 title = "CI⚡CD: la teoria messa in pratica"
-description = ""
+description = "Dopo una piccola introduzione su queste bellissime metodologie DevOps, passeremo alla pratica configurando insieme una GitLab Pipeline in grado di buildare e testare il nostro codice, fino alla generazione di un artefatto pronto ad essere deployato tramite Ansible."
 author = "<a href='https://twitter.com/' target='_blank'>Andrea Giannantonio</a> - PUG Roma"
 
 [[params.giorno_uno]]
 orario = "15:15"
 title = "Un approccio CQRS con Api Platform e Symfony Messenger"
-description = ""
+description = "Il CQRS è un pattern che ultimamente viene menzionato spesso, il talk ha l'obiettivo di illustrare un'implementazione del pattern attraverso l'utilizzo di Api Platform e Symfony Messenger."
 author = "<a href='https://twitter.com/' target='_blank'>Alfredo Aiello</a> - PUG Pescara"
 
 [[params.giorno_uno]]
@@ -168,6 +168,48 @@ author = "<a href='https://twitter.com/' target='_blank'>Teo Miscia</a> & <a hre
 orario = "17.30"
 title = "Saluti"
 description = "GrUSP"
+
+# Gli Speaker
+
+[[params.speaker]]
+icon="images/speakers/gallea.jpg"
+name = "Roberto Gallea"
+bio = "Ph.D. in Computer Science, Sviluppatore Web e Data Scientist. Appassionato di tecnologie digitali applicate a svariati campi, come machine learning, elettronica, computer vision e digital performing arts. Funzionario presso l'Università degli Studi di Palermo."
+
+[[params.speaker]]
+icon="images/speakers/dippolito.png"
+name = "Antonello D'Ippolito"
+bio = "Sviluppatore nato a Roma ma trapiantato a Rotterdam da qualche anno, ha avorato su parecchi software PHP e non per piú di 10 anni, tra Italia e Paesi Bassi. Interessato al Domain Driven Design, Test Driven Development e pratiche di Continuous Delivery. Anche se è principalmente uno sviluppatore ha anche un focus su metodologie e pratiche agili, è anche Scrum master all’occorrenza. Membro e speaker del PUG Roma, è anche un musicista, coltiva e auto-produce un progetto di musica originale."
+
+[[params.speaker]]
+icon="images/speakers/trebbi.jpg"
+name = "Manuel Trebbi"
+bio = "Appassionato di computer dalla prima elementare, ha iniziato il suo percorso come web developer a 18 anni. Per 5 anni parallelamente al lavoro da sviluppatore, ha organizzato eventi danzanti. Nel 2017 perde un piede in un incidente, la sua vita è ripartita da li, ha trovato la forza di alzarsi e di sfidare sè stesso, raggiungendo i podi nazionali nell’atletica paralitica. Dal 2018 è anche responsabile regionale delle marche della Youable onlus, aiuta le persone con ridotte capacità motorie ad avere gli ausili per fare sport e per la vita quotidiana. Attualmente lavora come Frontend Developer e facilitatore di processi presso l'azienda Innoteam di Alex Pagnoni per i brand KloudOps, Team Scaling e Axelerant. Manuel è una persona a cui piace alzarsi con il piede giusto :)"
+
+[[params.speaker]]
+icon="images/speakers/morelli.jpg"
+name = "Giuseppe Morelli"
+bio = "Programmatore PHP dal 2006 specializzato nella progettazione e sviluppo di e-commerce dal 2010. Dopo circa 10 anni di sviluppo e-commerce con Magento, dal 2020 cambia radicalmente scelta per passare a Sylius e Shopware. Il backend è la sua passione e Laravel è suo amico. Solo in caso di necessità diventa un DevOps. Originario dell'Umbria, dal 2013 vive nella splendida Romagna."
+
+[[params.speaker]]
+icon="images/speakers/giannantonio.jpeg"
+name = "Andrea Giannantonio"
+bio = "Team Leader in Immobiliare Labs. Abruzzese DOC ma romano d'adozione, è un grande appassionato di tecnologia, musica rap, serie tv e buon cibo. Si laurea in Tecnolologie Informatiche alla Sapienza di Roma e dal 2008 macina codice in php e js. La sua fame di sapere lo porta ad esplorare sempre nuove tecnologie e metodologie, ed è un attivo sostenitore di diverse community e del mondo open source."
+
+[[params.speaker]]
+icon="images/speakers/aiello.png"
+name = "Alfredo Aiello"
+bio = "Alfredo Aiello è Senior Backend Developer presso Hinto. Incuriosito dal mondo dell’informatica sin da piccolo, è cresciuto a suon di botte di Cadillac & Dinosauri. Ha una Laurea Magistrale in Informatica conseguita all’Università dell’Aquila e lavora come sviluppatore dal 2008. Ama poter essere d’aiuto e ha anche esperienza come docente nella scuole. Vive e lavora (da remoto) in provincia di Pescara."
+
+[[params.speaker]]
+icon="images/speakers/teo-miscia.jpg"
+name = "Teo Miscia"
+bio = "Teo Miscia, classe 1993. Ho iniziato la mia carriera di developer già in 4° superiore da quando ho collaborato con un'agenzia web di Pescara e successivamente ho realizzato un portale per la Questura per un progetto di collaborazione tra l'ITIS e la Questura. Da 9 anni lavoro all'interno del mondo delle multinazionali e da Giugno '19 sono diventato freelance. Uso Laravel come mio principale framework PHP dal 2015, quando era appena arrivato Laravel 5"
+
+[[params.speaker]]
+icon="images/speakers/alessandro-cappellozza.jpg"
+name = "Alessandro Cappellozza"
+bio = "Dopo la laurea in ingegneria informatica mi sono dedicato allo sviluppo web di applicativi prima e infrastrutture poi; da diversi anni lavoro in ambito IIOT cercando di integrare telemetria e telecontrollo tramite .Net, PHP e NodeJS nel Cloud."
 
 
 # social icon
