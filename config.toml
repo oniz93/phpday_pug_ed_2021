@@ -47,7 +47,7 @@ talks_desc = "Talk"
 enable  = true
 title   = "Chi sono i PUG?"
 content = 'I PUG sono i PHP User Group: community locali dislocate su tutto il territorio nazionale che organizzano meetup verticali php e non solo.<br/>Negli anni GrUSP ha favorito la nascita dei PUG supportando i vari gruppi da un punto di vista organizzativo, promozionale ed economico.<br/>Partecipa ai meetup del <a href="http://www.grusp.org/it/pug.html" target="_blank">PUG più vicino a te!</a>'
-image = "images/grusp/PUG_Club.svg"
+image = "images/grusp/pug-club.png"
 
 # Call to Action
 [params.cta]
@@ -160,7 +160,7 @@ author = ""
 
 [[params.giorno_uno]]
 orario = "16:30"
-title = "Surprise"
+title = "TBA"
 description = ""
 author = "<a href='https://twitter.com/' target='_blank'>Teo Miscia</a> & <a href='https://twitter.com/' target='_blank'>Alessandro Cappellozza</a> - PUG Pescara e PUG Rovigo"
 
@@ -194,7 +194,7 @@ bio = "Programmatore PHP dal 2006 specializzato nella progettazione e sviluppo d
 [[params.speaker]]
 icon="images/speakers/giannantonio.jpeg"
 name = "Andrea Giannantonio"
-bio = "Team Leader in Immobiliare Labs. Abruzzese DOC ma romano d'adozione, è un grande appassionato di tecnologia, musica rap, serie tv e buon cibo. Si laurea in Tecnolologie Informatiche alla Sapienza di Roma e dal 2008 macina codice in php e js. La sua fame di sapere lo porta ad esplorare sempre nuove tecnologie e metodologie, ed è un attivo sostenitore di diverse community e del mondo open source."
+bio = "Team Leader per lo sviluppo software in Immobiliare Labs. Abruzzese DOC ma romano d'adozione, è un grande appassionato di tecnologia, musica rap, serie tv e buon cibo. Si laurea in Tecnolologie Informatiche alla Sapienza di Roma e dal 2008 macina codice in php e js. La sua fame di sapere lo porta ad esplorare sempre nuove tecnologie e metodologie, ed è un attivo sostenitore di diverse community e del mondo open source."
 
 [[params.speaker]]
 icon="images/speakers/aiello.png"
