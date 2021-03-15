@@ -194,7 +194,7 @@ bio = "Programmatore PHP dal 2006 specializzato nella progettazione e sviluppo d
 [[params.speaker]]
 icon="images/speakers/giannantonio.jpeg"
 name = "Andrea Giannantonio"
-bio = "Team Leader in Immobiliare Labs. Abruzzese DOC ma romano d'adozione, è un grande appassionato di tecnologia, musica rap, serie tv e buon cibo. Si laurea in Tecnolologie Informatiche alla Sapienza di Roma e dal 2008 macina codice in php e js. La sua fame di sapere lo porta ad esplorare sempre nuove tecnologie e metodologie, ed è un attivo sostenitore di diverse community e del mondo open source."
+bio = "Team Leader per lo sviluppo software in Immobiliare Labs. Abruzzese DOC ma romano d'adozione, è un grande appassionato di tecnologia, musica rap, serie tv e buon cibo. Si laurea in Tecnolologie Informatiche alla Sapienza di Roma e dal 2008 macina codice in php e js. La sua fame di sapere lo porta ad esplorare sempre nuove tecnologie e metodologie, ed è un attivo sostenitore di diverse community e del mondo open source."
 
 [[params.speaker]]
 icon="images/speakers/aiello.png"
@@ -204,7 +204,7 @@ bio = "Alfredo Aiello è Senior Backend Developer presso Hinto. Incuriosito dal 
 [[params.speaker]]
 icon="images/speakers/teo-miscia.jpg"
 name = "Teo Miscia"
-bio = "..."
+bio = "Teo Miscia, classe 1993. Ho iniziato la mia carriera di developer già in 4° superiore da quando ho collaborato con un'agenzia web di Pescara e successivamente ho realizzato un portale per la Questura per un progetto di collaborazione tra l'ITIS e la Questura. Da 9 anni lavoro all'interno del mondo delle multinazionali e da Giugno '19 sono diventato freelance. Uso Laravel come mio principale framework PHP dal 2015, quando era appena arrivato Laravel 5"
 
 [[params.speaker]]
 icon="images/speakers/alessandro-cappellozza.jpg"
