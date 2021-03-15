@@ -1,0 +1,38 @@
+{{ if .Site.Params.about.enable }}
+{{ "<!-- About Section Start -->" | safeHTML }}
+<section id="about" class="background-pug">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <div class="block wow fadeInLeft" data-wow-delay=".3s" data-wow-duration="500ms">
+                    {{ with .Site.Params.about.title }}<h2>{{ . }}</h2>{{ end }}
+                    {{ with .Site.Params.about.content }}<p style="color:white;">{{ . | safeHTML }}</p>{{ end }}
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="block wow fadeInRight text-center" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <div class="row justify-content-center d-flex">
+                        <div class="col-sm-3 col-md-12 col-xl-3 d-flex flex-column align-items-center about-section">
+                            <div class="about-number">
+                                {{ with .Site.Params.about.days_number }}<span>{{ . }}</span>{{ end }}
+                            </div>
+                            <div class="about-text">
+                                {{ with .Site.Params.about.days_desc }}<span>{{ . }}</span>{{ end }}
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-12 col-xl-3 d-flex flex-column align-items-center about-section">
+                            <div class="about-number">
+                                {{ with .Site.Params.about.talks_number }}<span>{{ . }}</span>{{ end }}
+                            </div>
+                            <div class="about-text">
+                                {{ with .Site.Params.about.talks_desc }}<span>{{ . }}</span>{{ end }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ "<!-- About Section End -->" | safeHTML }}
+{{ end }}

@@ -1,0 +1,229 @@
+baseURL = "https://pug.phpday.it/"
+languageCode = "it-it"
+title = "phpday PUG Edition 2021"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.main]]
+name    = "PUG"
+url     = "#pug"
+weight  = 2
+[[menu.main]]
+name    = "Programma"
+url     = "#programma"
+weight  = 3
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/grusp/grusp.svg"
+dateFormat = "6 January 2006"
+# Meta data
+description = "phpday PUG Edition 2021 by GrUSP"
+author = "GrUSP - Teo Miscia"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# contact form action
+contactFormAction = "#" # contact form works with https://formspree.io
+
+# Banner
+[params.banner]
+enable = true
+
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "Di cosa si tratta?"
+content = 'Un evento online e gratuito di una giornata, organizzato dai PUG (PHP User Group) italiani.<br>phpday PUG Edition è nato nel 2020 dalla volontà della community di incontrarsi, non potendolo fare come ogni anno a Verona al <a href="https://www.phpday.it" style="color: white">phpday</a>.<br>L’evento è in italiano e si svolgerà in una venue virtuale che permette di interagire, incontrarsi e partecipare attivamente. <a href="https://phpday-pug-edition-2021.eventbrite.com" target="_blank" style="color: white">Registrati gratuitamente!</a>'
+days_number = "1"
+days_desc = "Giorno"
+talks_number = "7"
+talks_desc = "Talk"
+
+# Homepage About2 Section
+[params.about2]
+enable  = true
+title   = "Chi sono i PUG?"
+content = 'I PUG sono i PHP User Group: community locali dislocate su tutto il territorio nazionale che organizzano meetup verticali php e non solo.<br/>Negli anni GrUSP ha favorito la nascita dei PUG supportando i vari gruppi da un punto di vista organizzativo, promozionale ed economico.<br/>Partecipa ai meetup del <a href="http://www.grusp.org/it/pug.html" target="_blank">PUG più vicino a te!</a>'
+image = "images/grusp/PUG_Club.svg"
+
+# Call to Action
+[params.cta]
+enable  = true
+btnText = "ISCRIVITI GRATUITAMENTE"
+btnURL  = "https://phpday-pug-edition-2021.eventbrite.com/"
+
+# I PUG
+
+[[params.pug]]
+icon = "images/grusp/pug-catania.jpg"
+title = "PUG Catania"
+abstract = "Il PUG Catania rinasce dopo qualche anno di inattività a novembre 2019 organizzando il primo meetup già a dicembre 2019.<br/>Lo scopo è quello di ricostruire la community di sviluppatori PHP Catanese e renderla un luogo di confronto dove condividere esperienze lavorative e accresce il proprio bagaglio culturale permettendo a professionisti e appassionati di fare networking.<br />Dopo appena 5 mesi di attività può contare su un centinaio di iscritti e una media di 30 presenze ad evento."
+
+[[params.pug]]
+icon = "images/grusp/pugFirenze.svg"
+title = "PUG Firenze"
+abstract = "Il PUG Firenze vuole essere un luogo di incontro e condivisione per la community di programmatori dell’area di Firenze e dintorni. Non ha ancora potuto fare nessun incontro di persona, a causa delle limitazioni per il coronavirus, ma partecipa attivamente alle attività della community GrUSP ed è felice di fare il suo esordio al phpday PUG Edition!"
+
+[[params.pug]]
+icon = "images/grusp/pug-more.png"
+title = "PUG MoRe"
+abstract = "I primi incontri divulgativi organizzati sono avvenuti tra la fine del 2013 e gli inizi del 2014. Nel 2015 ha organizzato il Symfony Day.<br />Dopo una lunga pausa, con l'intenzione di rinascere dalle ceneri come l'araba fenice, ha ricominciato ad organizzare approfondimenti ed eventi."
+
+[[params.pug]]
+icon = "images/grusp/pugPescara.svg"
+title = "PUG Pescara"
+abstract = "Dopo aver finalmente trovato posto e data per il primo incontro da fare a Marzo 2020, il governo ha provveduto al lockdown di tutta la penisola. <br />La nostra realtà locale vuole diventare un punto di incontro e condivisione per gli sviluppatori di Pescara e dintorni. Nell'attesa di poter riorganizzare un incontro dal vivo, portiamo timidamente la bandiera della nostra regione al phpday PUG edition e partecipiamo alla community del GrUSP."
+
+[[params.pug]]
+icon = "images/grusp/pug-roma.png"
+title = "PUG Roma"
+abstract = "Il PUG Roma nasce nel lontano luglio 2010 come costola locale del GrUSP, il Gruppo Utenti e Sviluppatori PHP Italiani. Ci incontriamo ogni ultimo martedì del mese e spesso parliamo di tecniche di programmazione, di metodologie di sviluppo e di design pattern. Ovviamente parliamo anche di linguaggi e spesso di PHP, ma non ci poniamo limiti in questo senso."
+
+[[params.pug]]
+icon = "images/grusp/pug-romagna.png"
+title = "PUG Romagna"
+abstract = "Il PUG Romagna nasce nel dicembre del 2017 dalla volontà di tre sviluppatori che volevano partecipare al PHP Dev Test. <br />Inaugurato ufficialmente con una cena nel gennaio 2018, il PUG Romagna si incontra ogni primo martedì del mese. <br />Come suggerisce il nome, il PUG Romagna si è dato come obiettivo quello di coprire tutto il territorio romagnolo, da Rimini a Faenza, da Ravenna a Cesena: ogni mese il meetup si svolge in una città diversa, per avvicinare tutti gli sviluppatori del territorio e condividere insieme conoscenze, esperienze e nuove opportunità."
+
+[[params.pug]]
+icon = "images/grusp/pug-rovigo.png"
+title = "PUG Rovigo"
+abstract = "Nato nell'estate del 2019 da un gruppo che voleva confrontarsi con le tematiche del framework Scrum e Agile in generale; successivamente ci siamo allargati alla programmazione e gestione delle infrastrutture e dei progetti."
+
+[[params.pug]]
+icon = "images/grusp/pugTorino.svg"
+abstract = "Il PUG Torino nasce nel 2011 dopo una <a href='http://torino.grusp.org/2011/06/e-nato-il-pug-torino/' target='_blank'>cena in pizzeria tra pochi curiosi</a>. Dopo i primi incontri il gruppo cresce notevolmente di numero al punto da decidere di organizzare delle vere e proprie conferenze nazionali: PHP.TO.START del 2012 e 2013, il primo Symfony Day del 2012 e lo Zend Framework Day del 2014. In questi ultimi anni abbiamo organizzato diversi meetup con frequenza bimestrale affrontando diversi argomenti anche non sempre legati al mondo del PHP. Dal 2018 abbiamo la sponsorship del <a href='https://www.toolboxoffice.it/' target='_blank'>Toolbox coworking di Torino</a> che ci ospita gratuitamente in una sala attrezzata con più di 100 posti a sedere."
+title = "PUG Torino"
+
+# programma giorno uno
+
+[[params.giorno_uno]]
+orario = "09:00"
+title = "Apertura GrUSP"
+description = "GrUSP"
+
+[[params.giorno_uno]]
+orario = "09:30"
+title = "Design Patterns: Head-first vs Emergent"
+description = ""
+author="<a href='https://twitter.com/' target='_blank'>Roberto Gallea</a> - PUG Palermo"
+
+[[params.giorno_uno]]
+orario = "10:30"
+title = "How can I trust my test suite? / Come posso fidarmi della mia suite di test?"
+description = ""
+author = "<a href='https://twitter.com/' target='_blank'>Antonello D'ippolito</a> - PUG Roma"
+
+[[params.giorno_uno]]
+orario = "11:15"
+title = "Pausa"
+description = ""
+author = ""
+
+[[params.giorno_uno]]
+orario = "11:30"
+title = "Sindrome dell'impostore, fiducia in se stessi e motivazione"
+description = ""
+author = "<a href='https://twitter.com/' target='_blank'>Manuel Trebbi</a> - PUG Romagna"
+
+[[params.giorno_uno]]
+orario = "12:30"
+title = "Git branching model"
+description = ""
+author = "<a href='https://twitter.com/' target='_blank'>Giuseppe Morelli</a> - PUG Romagna"
+
+[[params.giorno_uno]]
+orario = "13:15"
+title = "Pranzo"
+description = ""
+author = ""
+
+[[params.giorno_uno]]
+orario = "14:30"
+title = "CI⚡CD: la teoria messa in pratica"
+description = ""
+author = "<a href='https://twitter.com/' target='_blank'>Andrea Giannantonio</a> - PUG Roma"
+
+[[params.giorno_uno]]
+orario = "15:15"
+title = "Un approccio CQRS con Api Platform e Symfony Messenger"
+description = ""
+author = "<a href='https://twitter.com/' target='_blank'>Alfredo Aiello</a> - PUG Pescara"
+
+[[params.giorno_uno]]
+orario = "16:15"
+title = "Pausa"
+description = ""
+author = ""
+
+[[params.giorno_uno]]
+orario = "16:30"
+title = "Surprise"
+description = ""
+author = "<a href='https://twitter.com/' target='_blank'>Teo Miscia</a> & <a href='https://twitter.com/' target='_blank'>Alessandro Cappellozza</a> - PUG Pescara e PUG Rovigo"
+
+[[params.giorno_uno]]
+orario = "17.30"
+title = "Saluti"
+description = "GrUSP"
+
+# Gli Speaker
+
+[[params.speaker]]
+icon="images/speakers/gallea.jpg"
+name = "Roberto Gallea"
+bio = "Ph.D. in Computer Science, Sviluppatore Web e Data Scientist. Appassionato di tecnologie digitali applicate a svariati campi, come machine learning, elettronica, computer vision e digital performing arts. Funzionario presso l'Università degli Studi di Palermo."
+
+[[params.speaker]]
+icon="images/speakers/dippolito.png"
+name = "Antonello D'Ippolito"
+bio = "Sviluppatore nato a Roma ma trapiantato a Rotterdam da qualche anno, ha avorato su parecchi software PHP e non per piú di 10 anni, tra Italia e Paesi Bassi. Interessato al Domain Driven Design, Test Driven Development e pratiche di Continuous Delivery. Anche se è principalmente uno sviluppatore ha anche un focus su metodologie e pratiche agili, è anche Scrum master all’occorrenza. Membro e speaker del PUG Roma, è anche un musicista, coltiva e auto-produce un progetto di musica originale."
+
+[[params.speaker]]
+icon="images/speakers/morelli.jpg"
+name = "Giuseppe Morelli"
+bio = "Programmatore PHP dal 2006 specializzato nella progettazione e sviluppo di e-commerce dal 2010. Dopo circa 10 anni di sviluppo e-commerce con Magento, dal 2020 cambia radicalmente scelta per passare a Sylius e Shopware. Il backend è la sua passione e Laravel è suo amico. Solo in caso di necessità diventa un DevOps. Originario dell'Umbria, dal 2013 vive nella splendida Romagna."
+
+[[params.speaker]]
+icon="images/speakers/giannantonio.jpeg"
+name = "Andrea Giannantonio"
+bio = "Team Leader in Immobiliare Labs. Abruzzese DOC ma romano d'adozione, è un grande appassionato di tecnologia, musica rap, serie tv e buon cibo. Si laurea in Tecnolologie Informatiche alla Sapienza di Roma e dal 2008 macina codice in php e js. La sua fame di sapere lo porta ad esplorare sempre nuove tecnologie e metodologie, ed è un attivo sostenitore di diverse community e del mondo open source."
+
+[[params.speaker]]
+icon="images/speakers/aiello.png"
+name = "Alfredo Aiello"
+bio = "Alfredo Aiello è Senior Backend Developer presso Hinto. Incuriosito dal mondo dell’informatica sin da piccolo, è cresciuto a suon di botte di Cadillac & Dinosauri. Ha una Laurea Magistrale in Informatica conseguita all’Università dell’Aquila e lavora come sviluppatore dal 2008. Ama poter essere d’aiuto e ha anche esperienza come docente nella scuole. Vive e lavora (da remoto) in provincia di Pescara."
+
+[[params.speaker]]
+icon="images/speakers/teo-miscia.jpg"
+name = "Teo Miscia"
+bio = "..."
+
+[[params.speaker]]
+icon="images/speakers/alessandro-cappellozza.jpg"
+name = "Alessandro Cappellozza"
+bio = "Dopo la laurea in ingegneria informatica mi sono dedicato allo sviluppo web di applicativi prima e infrastrutture poi; da diversi anni lavoro in ambito IIOT cercando di integrare telemetria e telecontrollo tramite .Net, PHP e NodeJS nel Cloud."
+
+
+
+
+
+
+
+
+
+
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-facebook"
+url = "https://www.facebook.com/GrUSP/"
+
+[[params.socialIcon]]
+icon = "ion-social-twitter"
+url = "https://twitter.com/grusp"
+
+[[params.socialIcon]]
+icon = "ion-social-linkedin"
+url = "https://www.linkedin.com/company/grusp/"
