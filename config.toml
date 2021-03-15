@@ -107,13 +107,13 @@ description = "GrUSP"
 [[params.giorno_uno]]
 orario = "09:30"
 title = "Design Patterns: Head-first vs Emergent"
-description = ""
+description = "I Design Patterns sono uno strumento consolidato per risolvere problemi di design ricorrenti. Tuttavia, applicarli a testa bassa è spesso non necessario ed a volte addirittura controproducente. La necessità di adottarli infatti \"emerge\" lungo la strada e la loro implementazione è una conseguenza che rientra nella naturale prassi del refactoring.<br/><br/>Il refactoring non è un vezzo, ma una necessità fisiologica del codice che evolve.<br/><br/>Imparare in modo critico a riconoscere queste situazioni, accettarle, e infine ristrutturare il codice in modo efficace e senza rischi, è un'abilità che può far la differenza fra un architect ed un programmatore qualunque."
 author="<a href='https://twitter.com/' target='_blank'>Roberto Gallea</a> - PUG Palermo"
 
 [[params.giorno_uno]]
 orario = "10:30"
 title = "How can I trust my test suite? / Come posso fidarmi della mia suite di test?"
-description = ""
+description = "Hai appena iniziato a lavorare su un nuovo progetto, oppure ci stai lavorando da un po' ma si è evoluto molto nel tempo, con il contributo di tanti sviluppatori diversi. Questo significa che probabilmente non conosci abbastanza come i test automatici sono stati scritti e quanto sono efficaci. <br/><br/>Quindi come puoi essere fiducioso nel rilasciare nuove funzionalità in produzione, o rifattorizzare quel vecchio pezzo di codice che ti sta rallentando tanto? Sei abbastanza sicuro che se la build nella tua CI è verde non si romperà nulla in produzione?<br/>Ci sono parecchi tool nell'ecosistema PHP che posso darti delle metriche sul tuo codice e i tuoi test, come la code coverage or l'indice CRAP, ma sono significative fino ad un certo punto.<br/>In questo talk vedremo come puoi misurare l'efficacia dei tuoi test, come puoi migliorarla, e quali sono i benefici dell'avere una suite di test completa ed affidabile."
 author = "<a href='https://twitter.com/' target='_blank'>Antonello D'ippolito</a> - PUG Roma"
 
 [[params.giorno_uno]]
@@ -125,13 +125,13 @@ author = ""
 [[params.giorno_uno]]
 orario = "11:30"
 title = "Sindrome dell'impostore, fiducia in se stessi e motivazione"
-description = ""
+description = "La sindrome dell’impostore è quella condizione in cui ci sentiamo di essere fuori luogo e di poter essere smascherati da un momento all’altro. <br>Specialmente se si lavora sotto pressione o in situazioni stressanti, è probabile incorrere in dei problemi e arrivare a pensare di non esserne all’altezza, fino a sentirsi fuori posto. <br/>Superiamo le difficoltà, coltivando fiducia in noi stessi e troviamo la giusta motivazione per migliorare la nostra qualità del lavoro e della vita"
 author = "<a href='https://twitter.com/' target='_blank'>Manuel Trebbi</a> - PUG Romagna"
 
 [[params.giorno_uno]]
 orario = "12:30"
 title = "Git branching model"
-description = ""
+description = "- Perchè organizzare i branch git<br/>- Git flow<br/>- Alternative al git flow<br/>- Quale metodo usare in base al team/progetto/deploy<br/>- Le 10 regole da ricordare"
 author = "<a href='https://twitter.com/' target='_blank'>Giuseppe Morelli</a> - PUG Romagna"
 
 [[params.giorno_uno]]
@@ -143,13 +143,13 @@ author = ""
 [[params.giorno_uno]]
 orario = "14:30"
 title = "CI⚡CD: la teoria messa in pratica"
-description = ""
+description = "Dopo una piccola introduzione su queste bellissime metodologie DevOps, passeremo alla pratica configurando insieme una GitLab Pipeline in grado di buildare e testare il nostro codice, fino alla generazione di un artefatto pronto ad essere deployato tramite Ansible."
 author = "<a href='https://twitter.com/' target='_blank'>Andrea Giannantonio</a> - PUG Roma"
 
 [[params.giorno_uno]]
 orario = "15:15"
 title = "Un approccio CQRS con Api Platform e Symfony Messenger"
-description = ""
+description = "Il CQRS è un pattern che ultimamente viene menzionato spesso, il talk ha l'obiettivo di illustrare un'implementazione del pattern attraverso l'utilizzo di Api Platform e Symfony Messenger."
 author = "<a href='https://twitter.com/' target='_blank'>Alfredo Aiello</a> - PUG Pescara"
 
 [[params.giorno_uno]]
@@ -160,7 +160,7 @@ author = ""
 
 [[params.giorno_uno]]
 orario = "16:30"
-title = "Surprise"
+title = "TBA"
 description = ""
 author = "<a href='https://twitter.com/' target='_blank'>Teo Miscia</a> & <a href='https://twitter.com/' target='_blank'>Alessandro Cappellozza</a> - PUG Pescara e PUG Rovigo"
 
